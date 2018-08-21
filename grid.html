@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>문서 제목</title>
+
+	<link rel="stylesheet" href="./css/jquery.bxslider.css">
+	<script src="./js/jquery-3.3.1.min.js"></script>
+	<script src="./js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.slider1').bxSlider({
+				auto:true
+			});
+
+			$('.slider2').bxSlider({
+				controls:false
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+	<script>
+		function bgclick(){
+			document.getElementsByTagName('body')[0].style.background = "url(../w01.jpg)";
+		}
+		function bgclick1(){
+			document.getElementsByTagName('body')[0].style.background = "";
+		}
+	</script>
+</head>
+<body>
+	<div id="button" style="width:200px;height:200px;position:absolute;">
+		<div class="btn blue" style="width:100px" onclick="bgclick()">배경변경</div>
+		<div class="btn blue" style="width:100px" onclick="bgclick1()">초기값</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="span_12">
+				<div class="slider1">
+					<div class="imgview"><img src="../l01.jpg" alt=""></div>
+					<div class="imgview"><img src="../l02.jpg" alt=""></div>
+					<div class="imgview"><img src="../l03.jpg" alt=""></div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-skyblue">
+			<div class="span_6 md_vnone">49% Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt labore aperiam quas iusto quasi officiis ad pariatur est explicabo. Non possimus, et quisquam necessitatibus repudiandae cumque explicabo enim, porro doloribus voluptate eveniet quis quia dolor, blanditiis est. Molestias dolorum est tenetur quam eius quidem, voluptas modi, soluta incidunt, delectus dolores!</div>
+			<div class="span_6" id="slider2wrap">
+				<div class="slider2">
+					<div class="imgview"><img src="../l01.jpg" alt=""></div>
+					<div class="imgview"><img src="../l02.jpg" alt=""></div>
+					<div class="imgview"><img src="../l03.jpg" alt=""></div>
+				</div></div>
+		</div>
+		<div class="row">
+			<div class="span_4">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">이택언</h4>
+						<p class="card-text">대표</p>
+						<div class="btn"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="span_4 mo_vnone">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">djfisijf</h4>
+						<p class="card-text">대표</p>
+						<div class="btn"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="span_4 md_vnone mo_vnone">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">djfisijf</h4>
+						<p class="card-text">대표</p>
+						<div class="btn"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="span_2">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">백기</h4>
+						<p class="card-text">대표</p>
+						<div class="btn red"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="span_2 mo_vnone">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">djfisijf</h4>
+						<p class="card-text">대표</p>
+						<div class="btn red"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="span_2 mo_vnone">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">djfisijf</h4>
+						<p class="card-text">대표</p>
+						<div class="btn red"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+			<div class="span_2 mo_vnone">
+				<div class="card">
+					<img src="../testimg.jpg" alt="card image" class="card-img-top">
+					<div class="card-body">
+						<h4 class="card-title">djfisijf</h4>
+						<p class="card-text">대표</p>
+						<div class="btn red"><a href="tel:01011111111">010-1111-1111</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row bg-purple">
+			<div class="span_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nam sunt recusandae, est ea quo dolorum, temporibus molestias omnis eius quasi explicabo similique aspernatur distinctio tempore sed consequatur cum. Consectetur, sunt odit modi quo consequuntur illum similique nobis id ea laborum fugiat optio at ratione! Quia provident dolores consectetur, distinctio.</div>
+			<div class="span_1">Facere neque reiciendis, labore dolorum commodi nemo doloremque debitis culpa laudantium omnis quisquam laborum officia rerum fuga, fugiat deleniti autem porro dolore voluptates inventore quibusdam amet. Ea ipsa mollitia, tempora numquam ipsum magnam! Ab tempora odio voluptates, maxime incidunt, enim qui maiores, illo debitis dolores aut sit dicta doloremque ad.</div>
+			<div class="span_1">Doloremque sapiente error molestias perspiciatis quia, iusto quo. Eum fugiat numquam obcaecati totam consectetur, qui assumenda sapiente quas, vel dignissimos alias vero quibusdam? Quisquam non, cumque! Aut obcaecati, quis? Atque ducimus amet reprehenderit eius tempore placeat. Distinctio architecto possimus, velit cumque vitae quaerat tenetur nisi autem impedit neque, necessitatibus magnam?</div>
+			<div class="span_1">Saepe aliquid facere quas, illum qui inventore ratione dolores est itaque similique sapiente laudantium expedita enim adipisci quibusdam ipsa eos iste nostrum a numquam nemo cupiditate unde dolore. Illum, quo, voluptatum inventore culpa natus tempora aliquid sint eligendi labore asperiores. Accusamus enim veritatis sit iusto beatae, ea a! Esse, atque.</div>
+			<div class="span_1">Accusamus unde sequi soluta sunt quaerat architecto minima, commodi enim voluptates, deleniti, molestias cum veritatis mollitia quisquam dicta debitis. Fugiat quod atque animi itaque commodi eos qui aperiam eligendi deserunt dolore alias, eaque cumque magnam fugit debitis ex pariatur iure vitae, facere repudiandae explicabo, voluptates quo ipsam. Labore, quo possimus.</div>
+		</div>
+	</div>
+</body>
+</html>
